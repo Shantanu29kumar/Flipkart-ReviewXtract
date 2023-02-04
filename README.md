@@ -11,4 +11,4 @@ The dataset consists of 2 columns
 * Using Machine Learning, we will analyze that data and make it more efficient to understand and predict.
 * Our task is to predict whether the review is positive or negative.
 
-# A 93% accuracy rate can be achieved by this model when classifying reviews
+## A 93% accuracy rate can be achieved by this model when classifying reviews
