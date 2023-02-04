@@ -1,0 +1,31 @@
+Flipkart Reviews Sentiment Analysis using Python Sentiment analysis of Flipkart is the process of analyzing customer feedback and reviews on Flipkart products and 
+its services. 
+In our case, it is boAt Rockerz 400. 
+This study aims to understand the overall sentiment of customers towards the product which is sold by Flipkart, including their levels of satisfaction, 
+dissatisfaction, and areas for improvement. It is possible for Flipkart as well boAt to use this data to improve the customer experience, their product offerings,
+and their overall business strategy by using this information.
+
+Sentiment analysis can be performed using various machine learning techniques, such as natural language processing (NLP) and text classification.
+"tqdm" is a Python function that preprocesses text data. The function takes in a list of text sentences called "text_data". It uses the tqdm library 
+to display a progress bar for the processing loop. The function performs the following steps for each sentence in the input:
+
+1. Removes punctuations from the sentence using a regular expression (re.sub).
+2. Tokenizes the sentence into words using nltk.word_tokenize.
+3. Converts each word to lowercase and removes stopwords (common words such as "the", "a", etc.).
+4. Joins the remaining words back into a sentence and adds it to the list "written_text".
+
+Finally, the function returns the list "written_text" which contains the preprocessed sentences.
+Then we generate a word cloud visualization from a column of text data in a Pandas DataFrame called "data". 
+The text data is filtered to only include rows where the value in the "label" column is equal to 1. 
+The filtered text data is concatenated into a single string, "strong_word", which is then passed to a WordCloud object. 
+The WordCloud object generates the word cloud visualization and displays it using Matplotlib's imshow() function. 
+The size of the figure is set to 20x10 inches, and the axis is turned off.
+
+Last but not least, we train our data using a Decision Classifier and then measure its accuracy.
+
+The future scope and usability of sentiment analysis is broad and holds great promise as it has a wide range of applications 
+in various industries and fields. The results of sentiment analysis on Flipkart can provide valuable insights into customer satisfaction, 
+product popularity, and customer preferences. This information can be used by Flipkart and boAt to make data-driven decisions, 
+improve customer experiences, and increase customer loyalty.
+
+
