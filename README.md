@@ -1,4 +1,4 @@
-# Flipkart ReviewXtract: Real-Time Product Review Scraping & Analysis
+# Flipkart Reviews Sentiment Analysis using Machine Learning 
 
 This dataset consists of reviews by customers on **boAt Rockerz 400** about their experience and the quality of the product and brand. 
 
